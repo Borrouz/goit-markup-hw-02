@@ -24,6 +24,12 @@ body {
     background-color: var(--hover-text-color);
     color: #FFFFFF;
 }
+
+.btn:focus {
+    background-color: var(--hover-text-color);
+    color: #FFFFFF;
+}
+
 .logo {
     font-size: 26px;
     line-height: 1.2;
@@ -34,6 +40,8 @@ body {
 .link {
     text-decoration: none;
 }
+
+
 
 .link:hover {
     color: var(--hover-text-color);
@@ -63,7 +71,7 @@ body {
 }
 
 .header-nav a {
-    color: var(--secondary-text-color);
+    color: var(--primary-text-color);
     font-weight: 500;
 }
 
@@ -94,6 +102,7 @@ body {
 }
 
 .list h3 {
+    text-transform: uppercase;
     color: var(--primary-text-color);
     font-weight: 700;
     font-size: 14px;
@@ -128,16 +137,23 @@ body {
     font-weight: 700;
 }
 
+.secondary-title {
+    color: var(--primary-text-color);
+    font-weight: 700;
+}
 .our-team h2 {
     color: var(--primary-text-color);
     font-weight: 700;
 }
 
 .team-list p {
-    color: var(--primary-text-color);
-    font-weight: 500;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.9;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--primary-text-color);
 }
-
 .team-list {
     font-size: 16px;
     line-height: 1.19;
@@ -147,7 +163,14 @@ body {
 
 .team-list h3 {
     color: var(--secondary-text-color);
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+
 }
+
+
 
 .adress {
     font-style: normal;
@@ -164,13 +187,13 @@ body {
     letter-spacing: 0.03em;
 }
 
+
 .footer {
     background-color: var(--background-color);
 }
 
-
-.footer-adress a {
-    color: #FFFFFF;
+.footer-adress {
+    color: #FFFFFF99;
 }
 
 .footer-studio {
@@ -178,7 +201,7 @@ body {
     font-weight: 700;
 }
 
-.main-list h2{
+.main-list h2 {
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -186,9 +209,14 @@ body {
     color: var(--primary-text-color);
 }
 
-.main-list span{
+.main-list h3 {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--secondary-text-color);
+}
+
+
+.active {
+    color: var(--hover-text-color);
 }
