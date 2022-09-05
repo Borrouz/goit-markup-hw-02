@@ -13,16 +13,20 @@ body {
 
 
 .btn{
+    background-color: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
     text-align: center;
     letter-spacing: 0.03em;
+    border: none;
+    color: var(--primary-text-color);
 }
 
 .btn:hover {
     background-color: var(--hover-text-color);
     color: #FFFFFF;
+    cursor: pointer;
 }
 
 .btn:focus {
@@ -82,23 +86,38 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
-.title {
+.start-section {
     background-color: var(--background-color);
+    text-align: center;
+    height: 600px;
+}
+.title {
     color: #FFFFFF;
     line-height: 1.36;
     letter-spacing: 0.06em;
     font-size: 44px;
     text-align: center;
+    text-transform: uppercase;
+    width: 695px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100px;
 }
 
 .main-btn {
     background-color: var(--hover-text-color);
     color:#FFFFFF;
+    height: 50px;
+    width: 200px;
     font-size: 16px;
-    line-height: 1.88;
-    font-family: inherit;
     text-align: center;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.875em;
+    border-radius: 10px;
+    border: 2px white;
 }
 
 .list h3 {
@@ -144,7 +163,7 @@ body {
 }
 
 
-.team-list p {
+.team-list h3 {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.9;
@@ -159,7 +178,7 @@ color: var(--primary-text-color);
     letter-spacing: 0.03em;
 }
 
-.team-list h3 {
+.team-list p {
     color: var(--secondary-text-color);
     font-size: 16px;
     line-height: 1.19;
@@ -194,6 +213,10 @@ color: var(--primary-text-color);
     color: #FFFFFF99;
 }
 
+.footer-adress a {
+    color: #FFFFFF;
+}
+
 .footer-studio {
     color: #FFFFFF;
     font-weight: 700;
@@ -207,7 +230,7 @@ color: var(--primary-text-color);
     color: var(--primary-text-color);
 }
 
-.main-list h3 {
+.main-list p {
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
