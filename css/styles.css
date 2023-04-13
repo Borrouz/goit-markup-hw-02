@@ -22,7 +22,14 @@
 .our-adress {
 	font-style: normal;
 }
-
+.section-title {
+	font-size: 36px;
+	line-height: 1.11;
+	text-align: center;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	color: var(--color-grey);
+}
 .list {
 	list-style: none;
 }
@@ -45,7 +52,7 @@ body {
 	clip: rect(0 0 0 0);  
 	overflow: hidden;
 }
-
+/* main Document */
 /* Header */
 .header-adress-link {
 	font-style: normal;
@@ -96,12 +103,29 @@ body {
 .hero {
 	background-color: var(--color-grey);
 }
+.hero-btn {
+	font-family: var(--primery-font);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04;
+	color: var(--color-white);
+	cursor: pointer;
+}
 
 .hero-btn:hover,
 .hero-btn:focus {
 	background-color: var(--color-ocean);
 }
+.hero-title {
+	font-size: 56px;
+	line-height: 1.07;
+	text-align: center;
+	letter-spacing: 0.02em;
+	color: var(--color-white);
 
+}
+/* Portfolio */
 .main-btn{
 	background-color: var(--color-cloud);
 	color: var(--color-iris);
@@ -112,3 +136,13 @@ body {
 	background-color: var(--color-iris);
 	color: #ffffff;
 }
+	/* Section - 2 */
+
+ .our-services{
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--color-navy-blue);
+
+	}
