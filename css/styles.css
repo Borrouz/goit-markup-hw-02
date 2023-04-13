@@ -19,6 +19,9 @@
 .link {
 	text-decoration: none;
 }
+.our-adress {
+	font-style: normal;
+}
 
 .list {
 	list-style: none;
@@ -78,7 +81,7 @@ body {
 
 .header-nav-link:hover,
 .header-nav-link:focus {
-	color: var(--color-iris);
+	color: #404bbf;
 }
 
 .header-studio-span {
@@ -88,6 +91,10 @@ body {
 /* Main */
 .hero-btn {
 	background-color: var(--color-iris);
+}
+
+.hero {
+	background-color: var(--color-grey);
 }
 
 .hero-btn:hover,
