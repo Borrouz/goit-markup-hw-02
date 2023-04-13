@@ -16,7 +16,7 @@
 	--color-white: #ffffff;
 	--color-dairy: #fcfcfc;
 }
-.link-reset {
+.link {
 	text-decoration: none;
 }
 
@@ -58,13 +58,16 @@ body {
 	font-weight: 800;
 	font-size: 18px;
 	line-height: 1.17;
-	letter-spacing: 0.03;
+	letter-spacing: 0.03em;
 	text-transform: uppercase;
 	color: var(--color-iris);
 }
+.header-nav-list {
+	list-style: none;
+}
 
 .header-nav-link {
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
@@ -74,6 +77,10 @@ body {
 .header-nav-link:hover,
 .header-nav-link:focus {
 	color: var(--color-iris);
+}
+
+.header-studio-span {
+	color: #2e2f42;
 }
 
 /* Main */
