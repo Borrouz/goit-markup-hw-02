@@ -26,9 +26,9 @@
 	font-size: 36px;
 	line-height: 1.11;
 	text-align: center;
-	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	color: var(--color-grey);
+	letter-spacing: 0.02em
 }
 .list {
 	list-style: none;
@@ -98,6 +98,7 @@ body {
 /* Main */
 .hero-btn {
 	background-color: var(--color-iris);
+	letter-spacing: 0.04em;
 }
 
 .hero {
@@ -145,4 +146,35 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-navy-blue);
 
-	}
+}
+.our-services-description{
+		line-height: 1.5;
+		letter-spacing: 0.02em;
+}
+
+	/* section - 4 */
+.our-team{
+	background-color: var(--color-cloud);
+}
+.our-team-list {
+	background-color: var(--color-white);
+}
+
+/* Footer */
+.footer{
+	background-color: var(--color-grey);
+}
+
+.footer-logo {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03em;
+	text-transform: uppercase;
+	color: var(--color-iris);
+}
+.footer-logo-span {
+	color: var(--color-cloud);
+}
+
