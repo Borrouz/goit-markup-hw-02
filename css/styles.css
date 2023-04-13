@@ -22,7 +22,8 @@
 
 body {
 	font-family: var(--primery-font);
-    background: #E5E5E5;
+    background-color: var(--color-white);
+	color: var(--color-slate);
 }
 
 .visually-hidden {  
@@ -51,6 +52,15 @@ body {
 .header-adress-link:hover, 
 .header-adress-link:focus{
 	color: var(--color-ocean);
+}
+.header-nav-logo {
+	font-family: var(--secondary-font);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17;
+	letter-spacing: 0.03;
+	text-transform: uppercase;
+	color: var(--color-iris);
 }
 
 .header-nav-link {
