@@ -20,6 +20,10 @@
 	text-decoration: none;
 }
 
+.list {
+	list-style: none;
+}
+
 body {
 	font-family: var(--primery-font);
     background-color: var(--color-white);
@@ -62,9 +66,7 @@ body {
 	text-transform: uppercase;
 	color: var(--color-iris);
 }
-.header-nav-list {
-	list-style: none;
-}
+
 
 .header-nav-link {
 	font-weight: 500;
