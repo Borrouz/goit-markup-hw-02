@@ -109,7 +109,7 @@ body {
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.5;
-	letter-spacing: 0.04;
+	letter-spacing: 0.04em;
 	color: var(--color-white);
 	cursor: pointer;
 }
@@ -125,6 +125,10 @@ body {
 	letter-spacing: 0.02em;
 	color: var(--color-white);
 
+}
+
+.our-team-item {
+	background-color: #FFFFFF;
 }
 /* Portfolio */
 .main-btn{
@@ -148,21 +152,18 @@ body {
 
 }
 .our-services-description{
-		line-height: 1.5;
-		letter-spacing: 0.02em;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
 }
 
 	/* section - 4 */
 .our-team{
 	background-color: var(--color-cloud);
 }
-.our-team-list {
-	background-color: var(--color-white);
-}
 
 /* Footer */
 .footer{
-	background-color: var(--color-grey);
+	background-color: #2e2f42;
 }
 
 .footer-logo {
