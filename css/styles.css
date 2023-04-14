@@ -133,6 +133,7 @@ body {
 }
 /* Portfolio */
 .main-btn{
+	font-family: inherit;
 	background-color: var(--color-cloud);
 	color: var(--color-iris);
 	font-style: normal;
