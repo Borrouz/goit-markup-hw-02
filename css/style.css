@@ -1,0 +1,76 @@
+body {
+    font-family: "Roboto", "Open Sans", "Lato", sans-serif;
+    background-color: #ffffff;
+    color:#2E2F42;
+    line-height: 1.5;
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #2E2F42;
+    font-style: normal;
+}
+
+h3 {
+    font-weight: 500;
+}
+/* Header */
+.nav > li > a:hover:focus {
+    color: #404BBF;
+}
+
+.nav > li > a:active {
+    text-decoration: underline;
+}
+
+.contacts > li > a {
+    color: #434455;
+}
+
+.contacts > li > a:hover:focus {
+    color: #404BBF;
+}
+/* Main */
+.subtitle > h2 {
+    line-height: 1.11;
+    font-size: 36px;
+}
+
+/* section - 1 */
+.title {
+    font-size: 56px;
+    line-height: 1.07;
+}
+
+.butt{
+    line-height: 1.5;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.butt:hover:focus {
+    background-color: #404BBF;
+}
+/* section - 2 */
+.advantages > li > h3 {
+    line-height: 1.2;
+    font-size: 20px;
+}
+
+.advantages > li > p {
+    color: #434455;
+}
+
+/* Footer */
+
+.footer > p {
+    color: #F4F4FD;
+}
