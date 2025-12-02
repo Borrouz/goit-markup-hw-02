@@ -1,7 +1,7 @@
 body {
-    font-family: "Roboto", "Open Sans", "Lato", sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: #ffffff;
-    color:#2E2F42;
+    color:#434455;
     line-height: 1.5;
     font-size: 16px;
 }
@@ -14,39 +14,71 @@ ul {
 
 a {
     text-decoration: none;
-    color: #2E2F42;
     font-style: normal;
+    color: #434455;
 }
 
 h3 {
     font-weight: 500;
 }
 /* Header */
-.nav > li > a:hover:focus {
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+.header-logo {
+    color: #2e2f42;
+}
+
+.header-link {
+    color: #2E2F42;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.header-link:hover:focus {
     color: #404BBF;
 }
 
-.nav > li > a:active {
+.header-link:active {
     text-decoration: underline;
 }
-
-.contacts > li > a {
-    color: #434455;
+.header-address {
+    font-style: normal;
 }
 
-.contacts > li > a:hover:focus {
-    color: #404BBF;
+.contact {
+    letter-spacing: 0.02em;
+}
+.contact:hover:focus {
+    color: #404bbf;
 }
 /* Main */
-.subtitle > h2 {
+.subtitle {
     line-height: 1.11;
     font-size: 36px;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize; 
+    color: #2E2F42;
 }
 
 /* section - 1 */
+.section-title {
+    background-color: #2E2F42;
+}
+
 .title {
+    text-align: center;
     font-size: 56px;
     line-height: 1.07;
+    color: #FFFFFF;
+    letter-spacing: 0.02em;
 }
 
 .butt{
@@ -54,23 +86,44 @@ h3 {
     background-color: #4D5AE5;
     color: #FFFFFF;
     cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.04em;
 }
 
 .butt:hover:focus {
     background-color: #404BBF;
 }
 /* section - 2 */
-.advantages > li > h3 {
+.advantages {
     line-height: 1.2;
     font-size: 20px;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 
-.advantages > li > p {
-    color: #434455;
+.adv-about {
+    letter-spacing: 0.02em;
 }
+
+/* section - 3 */
+.team {
+    background-color: #F4F4FD;
+}
+.team-card {
+    background-color: #ffffff;
+}
+
 
 /* Footer */
+.footer {
+    background-color: #2E2F42;
+}
 
-.footer > p {
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-par {
     color: #F4F4FD;
 }
